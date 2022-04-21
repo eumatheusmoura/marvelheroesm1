@@ -1,0 +1,11 @@
+/* CSS Index */
+@import "./style.css";
+
+/* Homem Aranha */
+@import "./ha.css";
+
+/* Capitão América */
+@import "./ca.css";
+
+/* Homem de Ferro */
+@import "./hf.css";
