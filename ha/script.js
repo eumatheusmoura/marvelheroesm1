@@ -22,7 +22,7 @@ function confereResposta1(respostaCerta) {
       respostaJogador = prompt("Digite a resposta (A, B ou C):");
     }
   }
-  return (location = "./gameover.html");
+  return (location = "../gameover.html");
 }
 
 // FASE 2 - Homem Aranha
@@ -49,5 +49,5 @@ function confereResposta1(respostaCerta) {
       respostaJogador = prompt("Digite a resposta (A, B ou C):");
     }
   }
-  return (location = "./gameover.html");
+  return (location = "../gameover.html");
 }
