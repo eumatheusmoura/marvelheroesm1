@@ -163,3 +163,15 @@ nav ul {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
+
+/* ======================= VERSÃO RESPONSIVA 480px =======================*/
+
+@media (max-width: 480px) {
+  .container {
+    height: 100v;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
