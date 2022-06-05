@@ -1,4 +1,4 @@
-// FASE 1 - Homem Aranha
+// FASE 1 - Capitão América
 
 function confereResposta1(respostaCerta) {
   var respostaJogador = prompt("Digite a resposta (A, B, ou C):");
@@ -7,7 +7,7 @@ function confereResposta1(respostaCerta) {
   while (contador >= 1) {
     if (respostaJogador.toUpperCase() === respostaCerta) {
       alert("Parabéns! Resposta correta!");
-      return (location = "./capitaoamerica1.html");
+      return window.location.replace("./capitaoamerica1.html");
     } else if (
       respostaJogador.toUpperCase() === "A" ||
       respostaJogador.toUpperCase() === "B"
@@ -22,19 +22,19 @@ function confereResposta1(respostaCerta) {
       respostaJogador = prompt("Digite a resposta (A, B ou C):");
     }
   }
-  return (location = "../gameover.html");
+  return window.location.replace("/html/gameover.html");
 }
 
-// FASE 2 - Homem Aranha
+// FASE 2 - Capitão América
 
-function confereResposta1(respostaCerta) {
+function confereResposta2(respostaCerta) {
   var respostaJogador = prompt("Digite a resposta (A, B, ou C):");
   var contador = 3;
 
   while (contador >= 1) {
     if (respostaJogador.toUpperCase() === respostaCerta) {
       alert("Parabéns! Resposta correta!");
-      return (location = "./capitaoamerica2.html");
+      return window.location.replace("./capitaoamerica2.html");
     } else if (
       respostaJogador.toUpperCase() === "A" ||
       respostaJogador.toUpperCase() === "B"
@@ -49,19 +49,19 @@ function confereResposta1(respostaCerta) {
       respostaJogador = prompt("Digite a resposta (A, B ou C):");
     }
   }
-  return (location = "../gameover.html");
+  return window.location.replace("/html/gameover.html");
 }
 
-// FASE 3 - Homem Aranha
+// FASE 3 - Capitão América
 
-function confereResposta1(respostaCerta) {
+function confereResposta3(respostaCerta) {
   var respostaJogador = prompt("Digite a resposta (A, B, ou C):");
   var contador = 3;
 
   while (contador >= 1) {
     if (respostaJogador.toUpperCase() === respostaCerta) {
       alert("Parabéns! Resposta correta!");
-      return (location = "./capitaoamerica1.html");
+      return window.location.replace("/html/ganhou.html");
     } else if (
       respostaJogador.toUpperCase() === "A" ||
       respostaJogador.toUpperCase() === "C"
@@ -76,5 +76,5 @@ function confereResposta1(respostaCerta) {
       respostaJogador = prompt("Digite a resposta (A, B ou C):");
     }
   }
-  return (location = "../gameover.html");
+  return window.location.replace("/html/gameover.html");
 }
